@@ -29,6 +29,10 @@ also you can declare 'active' tab class name:
 ```js
 tabs('.wrapperClass', '.tabsBtnClass', '.tabsContentClass', 'showClassName', 'hideClassName', 'activeClassName')
 ```
+for skip some argument, use undefined:
+```js
+tabs('.wrapperClass', '.tabsBtnClass', '.tabsContentClass', undefined, undefined, 'activeClassName')
+```
 # Structure of HTML
 ```html
 <div class="wrapper">
