@@ -8,13 +8,14 @@ Function receive 3 required arguments and 3 optional arguments
 ```js
 function tabs(wrapNavigationSelector, tabsBtnSelector, tabsContentSelector, showClassName, hideClassName, activeClassName) {..}
 ```
+**`wrapNavigationSelector`** **(string)** - querySelector on parent of tabs    
+**`tabsBtnSelector`** **(string)** - querySelector on tab button    
+**`tabsContentSelector`** **(string)** - querySelector on tab content    
 
+`showClassName` **(string)** - class for showable content    
+`hideClassName` **(string)** - class for hidden content    
+`activeClassName` **(string)** - class for active tab
 # Usage
-
-For using this script, you may pass:
-1. Wrapper of tabs selector,
-2. Tabs selector,
-3. Content for tabs selector,
 ```js
 tabs('.wrapperClass', '.tabsBtnClass', '.tabsContentClass')
 ```
