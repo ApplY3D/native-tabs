@@ -28,3 +28,14 @@ and declare 'active' tab class:
 ```js
 tabs('.wrapperClass', '.tabsBtnClass', '.tabsContentClass', 'showClassName', 'hideClassName', 'activeClassName')
 ```
+# Structure of HTML
+```html
+<div class="wrapper">
+    <div class="tab first"></div>
+    <div class="tab second"></div>
+    <div class="tab third"></div>
+</div>
+<div class="content first"></div>
+<div class="content second"></div>
+<div class="content third"></div>
+```
