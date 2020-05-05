@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    justify-content: start;
+}
+.tab{
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+.content{
+    width: 340px;
+    height: 400px;
+    margin: 10px;
+
+    color:white;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.active{
+    border: 5px solid black;
+}
