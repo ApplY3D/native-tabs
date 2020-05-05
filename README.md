@@ -19,12 +19,12 @@ for using this script, you may pass:
 tabs('.wrapperClass', '.tabsBtnClass', '.tabsContentClass')
 ```
 
-and declare 'hide' and 'show' class:
+also you can declare 'hide' and 'show' class name:
 ```js
 tabs('.wrapperClass', '.tabsBtnClass', '.tabsContentClass', 'showClassName', 'hideClassName')
 ```
 
-and declare 'active' tab class:
+also you can declare 'active' tab class name:
 ```js
 tabs('.wrapperClass', '.tabsBtnClass', '.tabsContentClass', 'showClassName', 'hideClassName', 'activeClassName')
 ```
