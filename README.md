@@ -11,7 +11,7 @@ function tabs(wrapNavigationSelector, tabsBtnSelector, tabsContentSelector, show
 
 # Usage
 
-for using this script, you may pass:
+For using this script, you may pass:
 1. Wrapper of tabs selector,
 2. Tabs selector,
 3. Content for tabs selector,
