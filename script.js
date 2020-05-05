@@ -1,7 +1,7 @@
 function tabs(wrapNavigationSelector,tabsBtnSelector,tabsContentSelector, showClassName, hideClassName){
     let tabWrap = document.querySelector(wrapNavigationSelector),
         tab = document.querySelectorAll(tabsBtnSelector),
-        tabContent = document.querySelectorAll(tabsContentSelector);
+        tabContent = document.querySelectorAll(tabsContentSelector),
         show = showClassName || 'show',
         hide = hideClassName || 'hide';
     
